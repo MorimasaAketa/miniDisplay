@@ -6,7 +6,7 @@ void ofApp::setup(){
     ofSetFrameRate(60);
 
     setupDone = false;
-    displayMode = 1; // 720i
+    displayMode = 0; // 0:1080i
     toggleMode(); // toggle to 1080i
 
     /*
