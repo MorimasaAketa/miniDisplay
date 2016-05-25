@@ -61,13 +61,21 @@ void ofApp::keyReleased(int key){
     if(key == 'f') {
         ofToggleFullscreen();
     }else if( key == '1' ){
-        capture.close();
-        capture.setup(1920, 1080, 59.94);
-        ofSetWindowShape(1920, 1080);
+        displayMode = 1; // 1:720p
+        toggleMode(); // toggle to 1080i
+
+        
+//        capture.close();
+//        capture.setup(1920, 1080, 59.94);
+//        ofSetWindowShape(1920, 1080);
+
     }else if( key == '2' ){
-        capture.close();
-        capture.setup(1280, 720, 59.94);
-        ofSetWindowShape(1280, 720);
+        displayMode = 0; // 1:720p
+        toggleMode(); // toggle to 1080i
+
+//        capture.close();
+//        capture.setup(1280, 720, 59.94);
+//        ofSetWindowShape(1280, 720);
     }else if( key == ' '){
         toggleMode();
     }
@@ -123,9 +131,11 @@ void ofApp::toggleMode(){
     if(displayMode == 0){
         capture.setup(1920, 1080, 59.94);
         ofSetWindowShape(1920, 1080);
+        ofSetWindowTitle("1080i. space key to toggle video format. esc to quit.");
     }else if(displayMode == 1){
         capture.setup(1280, 720, 59.94);
         ofSetWindowShape(1280, 720);
+        ofSetWindowTitle("720p. space key to toggle video format. esc to quit.");
     }
     
 }
