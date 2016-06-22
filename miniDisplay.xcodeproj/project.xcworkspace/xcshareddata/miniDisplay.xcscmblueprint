@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57F64079F61DB4BEB8D29BD1B4E3442D97D91392",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57F64079F61DB4BEB8D29BD1B4E3442D97D91392" : 0,
+    "BC9922FFE483A78DDBB9267B94D68853DF1435F5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "34225E35-CB41-4CA1-99B7-1BC6E260580E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57F64079F61DB4BEB8D29BD1B4E3442D97D91392" : "miniDisplay\/",
+    "BC9922FFE483A78DDBB9267B94D68853DF1435F5" : "..\/..\/addons\/ofxBlackmagic"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "miniDisplay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "miniDisplay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MorimasaAketa\/miniDisplay",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57F64079F61DB4BEB8D29BD1B4E3442D97D91392"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MorimasaAketa\/ofxBlackmagic",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC9922FFE483A78DDBB9267B94D68853DF1435F5"
+    }
+  ]
+}
