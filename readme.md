@@ -1,5 +1,7 @@
 # miniDisplay 
 
+![icon](miniDisplay/Images.xcassets/Appicon.appiconset/Icon_128x128.png)
+
 miniDisplay is a tiny Application for Mac showing external HDMI input coming through Blackmagic Design UltraStudio Mini Recorder; a small, portable HDMI capturing device.
 
 If you bring a Mac which has high-resolution monitor such as retina display, and monitor-less HDMI device such like Rapsberry-Pi or Stick PC, you can see the HDMI device's video output in your Mac screen by using BMD Ultrastudio Mini Recorder and miniDisplay.
