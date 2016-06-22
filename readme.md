@@ -1,6 +1,6 @@
 # miniDisplay 
 
-![icon](miniDisplay/Images.xcassets/Appicon.appiconset/Icon_128x128.png)
+![icon](https://github.com/MorimasaAketa/miniDisplay/blob/master/miniDisplay/Images.xcassets/AppIcon.appiconset/Icon_256x256.png?raw=true)
 
 miniDisplay is a tiny Application for Mac showing external HDMI input coming through Blackmagic Design UltraStudio Mini Recorder; a small, portable HDMI capturing device.
 
