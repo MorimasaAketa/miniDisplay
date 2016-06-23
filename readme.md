@@ -21,27 +21,27 @@ This application is based on Kyle McDonalds' [ofxBlackmagic](https://github.com/
 * A Mac which has Thunderbolt port.
 * OS X 10.10 or later.
 * Blackmagic Design UltraStudio Mini Recorder.
-* Blackmagic Design Desktop Video Software 10.6.6 or Later
+* Blackmagic Design Desktop Video Software 10.6.6 or later.
 * Monitor atatched to Mac larger than 1920x1080.
-* HDMI Device with video format 1080i59.94 or  720p59.94.
+* HDMI Device with video format 1080i59.94 or 720p59.94.
 
 This application is developed and tested on MacBook Pro Retina Mid 2015, OS X 10.10, Blackmagic Design Desktop Video 10.6.6 (2016-05-13), and BMD UltraStudio Mini Recorder, XCode 7, and openFrameworks 0.8.4 release.
 
-Currently supported video format is 1920x1080i59.94 and 1280x720p59.94 only. 
+Currently supported video formats are 1920x1080i59.94 and 1280x720p59.94 only. 
 
 
-## Installation for building application
+## Project installation for building application
 
 * Install Blackmagic Design's Desktop Video Software.
 * Setup openFrameworks 0.8.4 with XCode on Mac.
 * Place [ofxBlackmagic 0.8.4-stable branch](https://github.com/MorimasaAketa/ofxBlackmagic/tree/0.8.4-stable) to oF addon folder.
-* Plcae this miniDisplay XCode files to oF apps folder.
+* Place this miniDisplay XCode Project files to oF apps folder.
 
 ## To Do 
 
-* Adopt to oF 0.9.x .
-* Auto detecting Video Format.
+* Migrate to oF 0.9.x .
+* Auto detecting video format.
 * Image scaling.
-* More small latency using FBO or some GPU perforomance method.
+* Make latency less using FBO or some GPU perforomance method.
 
 
